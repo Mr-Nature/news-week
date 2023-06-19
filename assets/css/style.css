@@ -15,6 +15,7 @@ body {
   font-size: 25px;
   font-weight: 700;
 }
+
 /* Tope mobile end */
 
 /* Soliu footer start */
@@ -53,6 +54,7 @@ ul.footer-links-menu {
 .hove:hover {
   color: rgba(0, 0, 255, 0.509);
 }
+
 /* Soliu footer end */
 
 .section-header {
@@ -79,6 +81,7 @@ ul.footer-links-menu {
   .text-secondary-emphasis {
     margin: 30px 0 0 30px;
   }
+
 /* Soliu's tab end */
 }
 
@@ -166,13 +169,13 @@ ul.footer-links-menu {
 /* Tope's desktop end */
 
 /* Margin for the featured stories and debate containers */
-.featured {
-  margin-left: 40px;
-}
+  .featured {
+    margin-left: 40px;
+  }
 
-.debate {
-  margin-right: 40px;
-}
+  .debate {
+    margin-right: 40px;
+  }
 
 }
 
