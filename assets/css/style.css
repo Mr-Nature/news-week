@@ -65,7 +65,7 @@ ul.footer-links-menu {
 /* tab view */
 @media screen and (min-width: 768px) {
 
-/* Tope's tab start */
+  /* Tope's tab start */
   .button-subscribe {
     font-size: 15px;
     font-weight: 800;
@@ -75,20 +75,20 @@ ul.footer-links-menu {
     font-size: 36px;
   }
 
-/* Tope's tab end */
+  /* Tope's tab end */
 
-/* Soliu's tab start */
+  /* Soliu's tab start */
   .text-secondary-emphasis {
     margin: 30px 0 0 30px;
   }
 
-/* Soliu's tab end */
+  /* Soliu's tab end */
 }
 
 /* desktop view */
 @media screen and (min-width: 1024px) {
 
-/* Tope's desktop start */
+  /* Tope's desktop start */
   .header-text-newsweek {
     font-size: 60px;
     font-weight: 900;
@@ -106,7 +106,7 @@ ul.footer-links-menu {
     padding-left: 20px;
   }
 
-/* nav-bar */
+  /* nav-bar */
   .header-navbar1 {
     justify-content: space-between;
     font-size: large;
@@ -166,9 +166,9 @@ ul.footer-links-menu {
     margin-top: 8px;
   }
 
-/* Tope's desktop end */
+  /* Tope's desktop end */
 
-/* Margin for the featured stories and debate containers */
+  /* Margin for the featured stories and debate containers */
   .featured {
     margin-left: 40px;
   }
