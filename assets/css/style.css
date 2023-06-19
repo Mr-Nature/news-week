@@ -64,7 +64,6 @@ ul.footer-links-menu {
 
 /* tab view */
 @media screen and (min-width: 768px) {
-
   /* Tope's tab start */
   .button-subscribe {
     font-size: 15px;
@@ -87,7 +86,6 @@ ul.footer-links-menu {
 
 /* desktop view */
 @media screen and (min-width: 1024px) {
-
   /* Tope's desktop start */
   .header-text-newsweek {
     font-size: 60px;
@@ -176,7 +174,6 @@ ul.footer-links-menu {
   .debate {
     margin-right: 40px;
   }
-
 }
 
 /* Mega desktop view for xx-large screens */
