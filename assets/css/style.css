@@ -16,6 +16,16 @@ body {
   font-weight: 700;
 }
 
+/* Featured stories */
+.text-link:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.text-font {
+  font-size: 15px;
+}
+
 /* Tope mobile end */
 
 /* Soliu footer start */
