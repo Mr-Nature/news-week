@@ -17,6 +17,10 @@ body {
 }
 
 /* Featured stories */
+.text-link {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .text-link:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -67,9 +71,22 @@ ul.footer-links-menu {
 
 /* Soliu footer end */
 
+/* My Turn/ Culture & Travel Images */
 .section-header {
   font-size: 16px;
   color: darkgrey;
+}
+
+.ts-myturn-text {
+  color: rgb(169, 169, 169);
+}
+
+.img {
+  width: -webkit-fill-available;
+}
+
+.image-margin {
+  margin-top: 25px;
 }
 
 /* tab view */
@@ -92,6 +109,17 @@ ul.footer-links-menu {
   }
 
   /* Soliu's tab end */
+
+  /* My Turn/ Culture & Travel Images */
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image-margin {
+    margin-top: 0;
+  }
 }
 
 /* desktop view */
