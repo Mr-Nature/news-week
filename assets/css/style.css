@@ -59,7 +59,13 @@ ul.footer-links-menu {
 
 /*Soliu's Debate start*/
 
+.debate a {
+  font-size: 13px;
+}
 
+.debate {
+  font-weight: 700;
+}
 
 /*Soliu's Debate end*/
 
