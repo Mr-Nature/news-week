@@ -96,43 +96,7 @@ ul.footer-links-menu {
 
 /* Soliu footer end */
 
-<<<<<<< HEAD
-/*Soliu's Debate start*/
-
-.debate a {
-  font-size: 13px;
-}
-
-.debate {
-  font-weight: 700;
-}
-
-.insight-img {
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.insight-img-text {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.insight > h4:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.sponsored-insights {
-  gap: 20px;
-}
-
-/*Soliu's Debate end*/
-
-=======
 /* My Turn/ Culture & Travel Images */
->>>>>>> 359d71247891836e66a7bb63605d41ea3a49e172
 .section-header {
   font-size: 16px;
   color: darkgrey;
