@@ -57,6 +57,25 @@ body {
 
 /* Tope mobile end */
 
+/*Soliu's mobile start*/
+
+.insight-img {
+  position: relative;
+}
+
+.insight-img > ins {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  color: blueviolet;
+  padding: 20px;
+}
+
+
+
+/*Soliu's mobile start*/
+
 /* Soliu footer start */
 footer {
   min-height: 100px;
