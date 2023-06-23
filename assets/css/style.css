@@ -67,6 +67,23 @@ ul.footer-links-menu {
   font-weight: 700;
 }
 
+.insight-img {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.insight-img-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.insight > h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /*Soliu's Debate end*/
 
 .section-header {
