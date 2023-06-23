@@ -58,6 +58,15 @@ body {
 /* Tope mobile end */
 
 /*Soliu's mobile start*/
+.sponsored-insights {
+  gap: 20px;
+}
+
+.insight-topic {
+  border: 1px solid gray;
+  border-top: 0;
+  padding: 10px;
+}
 
 .insight-img {
   position: relative;
@@ -70,6 +79,12 @@ body {
   margin-bottom: 0;
   color: blueviolet;
   padding: 20px;
+}
+
+.insight-topic > h4:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
 }
 
 
