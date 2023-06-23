@@ -84,6 +84,10 @@ ul.footer-links-menu {
   text-decoration: underline;
 }
 
+.sponsored-insights {
+  gap: 20px;
+}
+
 /*Soliu's Debate end*/
 
 .section-header {
