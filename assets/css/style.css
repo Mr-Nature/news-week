@@ -98,6 +98,12 @@ body {
   cursor: pointer;
 }
 
+.sign-up {
+  background-color: red;
+  color: #fff;
+  border-radius: 2px;
+}
+
 /*Soliu's mobile start*/
 
 /* Soliu footer start */
