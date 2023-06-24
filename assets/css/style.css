@@ -58,6 +58,17 @@ body {
 /* Tope mobile end */
 
 /*Soliu's mobile start*/
+.opinion-title:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+.opinion-author {
+  font-size: 13px;
+  color: gray;
+}
+
 .sponsored-insights {
   gap: 20px;
 }
@@ -86,8 +97,6 @@ body {
   text-decoration-color: red;
   cursor: pointer;
 }
-
-
 
 /*Soliu's mobile start*/
 
