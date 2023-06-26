@@ -30,6 +30,31 @@ body {
   font-size: 15px;
 }
 
+.text-fonts {
+  font-size: 13px;
+}
+
+/* More Stories */
+.text-link2,
+.text-link3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text-link2:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.text-link3:hover {
+  text-decoration: underline;
+  text-decoration-color: darkgrey;
+}
+
+.left {
+  float: left;
+  padding: 0 15px 0 0;
+}
+
 /* Tope mobile end */
 
 /* Soliu footer start */
@@ -111,7 +136,6 @@ ul.footer-links-menu {
   /* Soliu's tab end */
 
   /* My Turn/ Culture & Travel Images */
-
   .img {
     max-width: 100%;
     height: auto;
@@ -201,6 +225,15 @@ ul.footer-links-menu {
   .sub-nav-link {
     margin-top: 8px;
   }
+
+  /* More-stories */
+  .text-link2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text-fonts {
+    font-size: 15px;
+  }  
 
   /* Tope's desktop end */
 
