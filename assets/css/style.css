@@ -34,6 +34,24 @@ body {
   font-size: 13px;
 }
 
+/* My Turn/ Culture & Travel Images */
+.section-header {
+  font-size: 16px;
+  color: darkgrey;
+}
+
+.ts-myturn-text {
+  color: rgb(169, 169, 169);
+}
+
+.img {
+  width: -webkit-fill-available;
+}
+
+.image-margin {
+  margin-top: 25px;
+}
+
 /* More Stories */
 .text-link2,
 .text-link3 {
@@ -50,9 +68,12 @@ body {
   text-decoration-color: darkgrey;
 }
 
-.left {
-  float: left;
-  padding: 0 15px 0 0;
+.ms-images {
+  padding-right: 20px;
+}
+
+.text-fonts2, .text-fonts3, .text-fonts4 {
+  font-size: 13px;
 }
 
 /* Tope mobile end */
@@ -103,8 +124,7 @@ body {
   color: #fff;
   border-radius: 2px;
 }
-
-/* Soliu's mobile start */
+/* Soliu's mobile end */
 
 /* Soliu footer start */
 footer {
@@ -142,26 +162,7 @@ ul.footer-links-menu {
 .hove:hover {
   color: rgba(0, 0, 255, 0.509);
 }
-
 /* Soliu footer end */
-
-/* My Turn/ Culture & Travel Images */
-.section-header {
-  font-size: 16px;
-  color: darkgrey;
-}
-
-.ts-myturn-text {
-  color: rgb(169, 169, 169);
-}
-
-.img {
-  width: -webkit-fill-available;
-}
-
-.image-margin {
-  margin-top: 25px;
-}
 
 /* tab view */
 @media screen and (min-width: 768px) {
@@ -175,15 +176,6 @@ ul.footer-links-menu {
     font-size: 36px;
   }
 
-  /* Tope's tab end */
-
-  /* Soliu's tab start */
-  .text-secondary-emphasis {
-    margin: 30px 0 0 30px;
-  }
-
-  /* Soliu's tab end */
-
   /* My Turn/ Culture & Travel Images */
   .img {
     max-width: 100%;
@@ -193,6 +185,26 @@ ul.footer-links-menu {
   .image-margin {
     margin-top: 0;
   }
+
+  /* More Stories / Latest News */
+  .text-fonts, .text-fonts2 {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .text-fonts3, .text-fonts4 {
+    font-size: 15px;
+    padding-bottom: 40px;
+  }
+
+  /* Tope's tab end */
+
+  /* Soliu's tab start */
+  .text-secondary-emphasis {
+    margin: 30px 0 0 30px;
+  }
+
+  /* Soliu's tab end */
 }
 
 /* desktop view */
@@ -275,16 +287,27 @@ ul.footer-links-menu {
     margin-top: 8px;
   }
 
-  /* More-stories */
+  /* More stories / Latest News */
   .text-link2 {
     font-family: Arial, Helvetica, sans-serif;
   }
 
   .text-fonts {
     font-size: 15px;
+    padding-bottom: 0;
   }
 
-  /* Tope's desktop end */
+  .text-fonts2 {
+    padding-bottom: 0;
+  }
+
+  .text-fonts3 {
+    padding-bottom: 0;
+  }
+
+  .text-fonts4 {
+    padding-bottom: 0;
+  }
 
   /* Margin for the featured stories and debate containers */
   .featured {
@@ -294,11 +317,22 @@ ul.footer-links-menu {
   .debate {
     margin-right: 40px;
   }
+
+  /* Tope's desktop end */
 }
 
 /* Mega desktop view for xx-large screens */
 @media screen and (min-width: 1400px) {
   body {
     margin: 0 100px 0 100px;
+  }
+
+  /* More Stories / Latest News */
+  .text-fonts2 {
+    padding-bottom: 20px;
+  }
+
+  .text-fonts3 {
+    padding-bottom: 40px;
   }
 }
