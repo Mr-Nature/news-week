@@ -72,7 +72,9 @@ body {
   padding-right: 20px;
 }
 
-.text-fonts2, .text-fonts3, .text-fonts4 {
+.text-fonts2, 
+.text-fonts3, 
+.text-fonts4 {
   font-size: 13px;
 }
 
@@ -124,6 +126,7 @@ body {
   color: #fff;
   border-radius: 2px;
 }
+
 /* Soliu's mobile end */
 
 /* Soliu footer start */
@@ -162,6 +165,7 @@ ul.footer-links-menu {
 .hove:hover {
   color: rgba(0, 0, 255, 0.509);
 }
+
 /* Soliu footer end */
 
 /* tab view */
@@ -192,14 +196,14 @@ ul.footer-links-menu {
   }
 
   /* More Stories / Latest News */
-  .text-fonts, .text-fonts2 {
+  .text-fonts, 
+  .text-fonts2 {
     font-size: 15px;
-    /*padding-bottom: 20px;*/
   }
 
-  .text-fonts3, .text-fonts4 {
+  .text-fonts3, 
+  .text-fonts4 {
     font-size: 15px;
-    /*padding-bottom: 40px;*/
   }
 
   /* The debate */
