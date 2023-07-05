@@ -176,6 +176,11 @@ ul.footer-links-menu {
     font-size: 36px;
   }
 
+  .grid-views {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+
   /* My Turn/ Culture & Travel Images */
   .img {
     max-width: 100%;
@@ -189,12 +194,18 @@ ul.footer-links-menu {
   /* More Stories / Latest News */
   .text-fonts, .text-fonts2 {
     font-size: 15px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
   }
 
   .text-fonts3, .text-fonts4 {
     font-size: 15px;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
+  }
+
+  /* The debate */
+  .debate {
+    max-width: max-content;
+    width: 810px;
   }
 
   /* Tope's tab end */
@@ -287,6 +298,12 @@ ul.footer-links-menu {
     margin-top: 8px;
   }
 
+  /* Sector: grid-view */
+  .grid-views {
+    grid-template-columns: 25% 45% 25%;
+    column-gap: 1em;
+  }
+
   /* More stories / Latest News */
   .text-link2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -311,11 +328,17 @@ ul.footer-links-menu {
 
   /* Margin for the featured stories and debate containers */
   .featured {
-    margin-left: 40px;
+    margin-left: 30px;
+  }
+
+  .top-story {
+    margin-left: 30px;
   }
 
   .debate {
-    margin-right: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 300px;
   }
 
   /* Tope's desktop end */
@@ -333,6 +356,15 @@ ul.footer-links-menu {
   }
 
   .text-fonts3 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+  }
+
+  .text-fonts4 {
+    padding-bottom: 10px;
+  }
+
+  /* Margin for the featured stories and debate containers */
+  .debate {
+    width: 430px;
   }
 }
