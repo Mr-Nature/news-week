@@ -78,6 +78,45 @@ body {
   font-size: 13px;
 }
 
+/* In the Maazine */
+.logo-mag2 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 43px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.editor-magazine {
+  font-size: 18px;
+}
+
+.all-feature {
+  background-color: gainsboro;
+}
+
+.all-feature:hover {
+  background-color: darkgray;
+}
+
+.all-features,
+.magazine-date {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.text-links,
+.magazine-fonts {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.text-links:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 /* Tope mobile end */
 
 /* Soliu's mobile start */
@@ -220,6 +259,26 @@ ul.footer-links-menu {
     width: 810px;
   }
 
+  /* In the Magazine */
+  .text-links,
+  .all-features {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .all-features {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .magazine-fonts {
+    font-size: 18px;
+  }
+
+  .images-height {
+    height: 170px;
+  }
+
   /* Tope's tab end */
 
   /* Soliu's tab start */
@@ -353,6 +412,16 @@ ul.footer-links-menu {
     width: 300px;
   }
 
+  /* In the Magazine */
+  .text-links,
+  .all-features {
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .images-height {
+    height: 295px;
+  }
+
   /* Tope's desktop end */
 }
 
@@ -378,5 +447,15 @@ ul.footer-links-menu {
   /* Margin for the featured stories and debate containers */
   .debate {
     width: 330px;
+  }
+
+  /* In the Magazine */
+  .images-height {
+    height: 425px;
+  }
+
+  .images-width {
+    height: 483px;
+    width: 100%;
   }
 }
