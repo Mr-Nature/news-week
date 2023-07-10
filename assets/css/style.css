@@ -78,7 +78,7 @@ body {
   font-size: 13px;
 }
 
-/* In the Maazine */
+/* In the Magazine */
 .logo-mag2 {
   display: inline-block;
   width: 30px;
@@ -279,6 +279,15 @@ ul.footer-links-menu {
     height: 170px;
   }
 
+  .editor {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .editor-image {
+    width: -webkit-fill-available;
+    height: max-content;
+  }
   /* Tope's tab end */
 
   /* Soliu's tab start */
@@ -422,6 +431,11 @@ ul.footer-links-menu {
     height: 295px;
   }
 
+  .editor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
   /* Tope's desktop end */
 }
 
@@ -459,4 +473,3 @@ ul.footer-links-menu {
     width: 100%;
   }
 }
-
