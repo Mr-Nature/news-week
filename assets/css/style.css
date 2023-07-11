@@ -117,6 +117,32 @@ body {
   text-decoration-color: red;
 }
 
+/* Section 1-7 */
+.section-margin {
+  margin-top: 20px;
+}
+
+.section-padding,
+.section-padding3,
+.section-padding4,
+.section-padding5 {
+  padding-bottom: 60px;
+}
+
+.section-padding2 {
+  padding-bottom: 35px;
+}
+
+.section-margins {
+  margin-top: 15px;
+}
+
+.ms-image {
+  width: 33%;
+  height: 90px;
+  padding-right: 20px;
+}
+
 /* Tope mobile end */
 
 /* Soliu's mobile start */
@@ -289,6 +315,35 @@ ul.footer-links-menu {
     height: max-content;
   }
 
+  /* Section 1-7 */
+  .section-margin {
+    margin-top: 55px;
+  }
+
+  .section-padding {
+    padding-bottom: 20px;
+  }
+  
+  .section-padding2 {
+    padding-bottom: 10px;
+  }
+
+  .section-padding4 {
+    padding-bottom: 13px;
+  }
+
+  .section-padding5 {
+    padding-bottom: 40px;
+  }
+
+  .ms-image {
+    width: 48%;
+  }
+
+  .section-padding3 {
+    padding-bottom: 20px;
+  }
+
   /* Tope's tab end */
 
   /* Soliu's tab start */
@@ -437,6 +492,26 @@ ul.footer-links-menu {
     grid-template-columns: auto auto auto auto;
   }
 
+  /* Section 1-7 */
+  .section-padding,
+  .section-padding2 {
+    padding-bottom: 35px;
+  }
+
+  .section-padding3,
+  .section-padding4,
+  .section-padding5 {
+    padding-bottom: 60px;
+  }
+
+  .section-margins {
+    margin-top: 15px;
+  }
+
+  .ms-image {
+    width: 30%;
+  }
+
   /* Tope's desktop end */
 }
 
@@ -472,5 +547,24 @@ ul.footer-links-menu {
   .images-width {
     height: 483px;
     width: 100%;
+  }
+
+  .images-widths {
+    width: 98%;
+  }
+
+  /* Section 1-7 */
+  .section-padding,
+  .section-padding2,
+  .section-padding3 {
+    padding-bottom: 60px;
+  }
+
+  .section-padding4 {
+    padding-bottom: 75px;
+  }
+
+  .ms-image {
+    width: 22%;
   }
 }
