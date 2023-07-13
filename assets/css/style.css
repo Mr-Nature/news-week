@@ -143,6 +143,23 @@ body {
   padding-right: 20px;
 }
 
+.sub-news {
+  position: relative;
+  left: 1.7em;
+  top: 1em;
+}
+
+.sub-image {
+  position: absolute;
+  left: 5em;
+  margin-top: 20px;
+}
+
+.write-up {
+  position: relative;
+  bottom: 1em;
+}
+
 /* Tope mobile end */
 
 /* Soliu's mobile start */
@@ -344,6 +361,16 @@ ul.footer-links-menu {
     padding-bottom: 20px;
   }
 
+  /* Subscribe */
+  .sub-news {
+    left: 0;
+    top: 0;
+  }
+
+  .write-up {
+    position: static;
+  }
+
   /* Tope's tab end */
 
   /* Soliu's tab start */
@@ -512,6 +539,11 @@ ul.footer-links-menu {
     width: 30%;
   }
 
+  /* Subscribe */
+  .write-up {
+    font-size: larger;
+  }
+  
   /* Tope's desktop end */
 }
 
