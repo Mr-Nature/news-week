@@ -3,6 +3,13 @@ body {
 }
 
 /* Tope mobile start */
+.main-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
 .icon {
   color: lightblue;
 }
@@ -158,6 +165,33 @@ body {
 .write-up {
   position: relative;
   bottom: 1em;
+}
+
+/* Subscribe & Newsletter */
+.font-subscribe-newsletter {
+  font-size: 15px;
+}
+
+.newsletter-image {
+  height: 200px;
+  width: -webkit-fill-available;
+}
+
+.newsletter-email {
+  width: 150px;
+}
+
+.free-sign-up {
+  font-size: 14px;
+  width: 150px;
+  padding: 11px 0 10px 0;
+  position: relative;
+  right: 0.4em;
+}
+
+.font-starting {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
 }
 
 /* Tope mobile end */
@@ -361,7 +395,7 @@ ul.footer-links-menu {
     padding-bottom: 20px;
   }
 
-  /* Subscribe */
+  /* Subscribe & Newsletter */
   .sub-news {
     left: 0;
     top: 0;
@@ -369,6 +403,14 @@ ul.footer-links-menu {
 
   .write-up {
     position: static;
+  }
+
+  .newsletter-main-container {
+    width: -webkit-fill-available;
+  }
+
+  .newsletter-size {
+    width: 350px;
   }
 
   /* Tope's tab end */
@@ -539,12 +581,52 @@ ul.footer-links-menu {
     width: 30%;
   }
 
-  /* Subscribe */
+  /* Subscribe & Newsletter */
   .write-up {
     font-size: larger;
   }
+
+  .newsletter-main-container {
+    width: 33%;
+  }
+
+  .newsletter-size {
+    width: 200px;
+    padding: 13px;
+    padding-bottom: 0;
+  }
+
+  .newsletter-image {
+    height: 320px;
+    width: 100%;
+  }
+
+  .font-starting {
+    margin-left: 10px;
+  }
+
+  .font-subscribe-newsletter {
+    margin-left: 10px;
+  }
+
+  .free-sign-up {
+    position: static;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+  .email-signup {
+    margin-left: 10px;
+  }
   
   /* Tope's desktop end */
+
+  /* Soliu's desktop start */
+  .footer-width {
+    width: -webkit-fill-available;
+  }
+
+  /* Soliu's desktop end */
 }
 
 /* Mega desktop view for xx-large screens */
