@@ -99,7 +99,6 @@ body {
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  overflow: hidden;
 }
 
 @keyframes slidein {
