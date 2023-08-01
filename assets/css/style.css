@@ -1,0 +1,711 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tope mobile start */
+.main-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.icon {
+  color: lightblue;
+}
+
+.button-subscribe {
+  font-size: 11px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+.button-subscribe:hover {
+  font-size: 16px;
+}
+
+.header-text-newsweek {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Featured stories */
+.text-link {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.text-font {
+  font-size: 15px;
+}
+
+.text-fonts {
+  font-size: 13px;
+}
+
+/* My Turn/ Culture & Travel Images */
+.section-header {
+  font-size: 16px;
+  color: darkgrey;
+}
+
+.ts-myturn-text {
+  color: rgb(169, 169, 169);
+}
+
+.img {
+  width: -webkit-fill-available;
+}
+
+.image-margin {
+  margin-top: 25px;
+}
+
+/* More Stories */
+.text-link2,
+.text-link3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text-link2:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.text-link3:hover {
+  text-decoration: underline;
+  text-decoration-color: darkgrey;
+}
+
+.ms-images {
+  padding-right: 20px;
+}
+
+.text-fonts2,
+.text-fonts3,
+.text-fonts4 {
+  font-size: 13px;
+}
+
+/* In the Magazine */
+.magazine-text,
+.editor-text {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.logo-mag2 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 43px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.editor-magazine {
+  font-size: 18px;
+}
+
+.all-feature {
+  background-color: gainsboro;
+}
+
+.all-feature:hover {
+  background-color: darkgray;
+}
+
+.all-features,
+.magazine-date {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.text-links,
+.magazine-fonts {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.text-links:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* Section 1-7 */
+.section-margin {
+  margin-top: 20px;
+}
+
+.section-padding,
+.section-padding3,
+.section-padding4,
+.section-padding5 {
+  padding-bottom: 60px;
+}
+
+.section-padding2 {
+  padding-bottom: 35px;
+}
+
+.section-margins {
+  margin-top: 15px;
+}
+
+.ms-image {
+  width: 33%;
+  height: 90px;
+  padding-right: 20px;
+}
+
+.sub-news {
+  position: relative;
+  left: 1.7em;
+  top: 1em;
+}
+
+.sub-image {
+  position: absolute;
+  left: 5em;
+  margin-top: 20px;
+}
+
+.write-up {
+  position: relative;
+  bottom: 1em;
+}
+
+/* Subscribe & Newsletter */
+.font-subscribe-newsletter {
+  font-size: 15px;
+}
+
+.newsletter-image {
+  height: 200px;
+  width: -webkit-fill-available;
+}
+
+.newsletter-email {
+  width: 150px;
+}
+
+.free-sign-up {
+  font-size: 14px;
+  width: 150px;
+  padding: 11px 0 10px 0;
+  position: relative;
+  right: 0.4em;
+}
+
+.font-starting {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+/* Tope mobile end */
+
+/* Soliu's mobile start */
+.opinion-title:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+.opinion-author {
+  font-size: 13px;
+  color: gray;
+}
+
+.sponsored-insights {
+  gap: 20px;
+}
+
+.insight-topic {
+  border: 1px solid rgb(187, 174, 174);
+  border-top: 0;
+  padding: 10px;
+}
+
+.insight-img {
+  position: relative;
+}
+
+.insight-img > ins {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  color: blueviolet;
+  padding: 20px;
+}
+
+.insight-topic > h4:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: red;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.logo-mag {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+/* Soliu's mobile end */
+
+/* Soliu footer start */
+footer {
+  min-height: 100px;
+}
+
+footer .footer-h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: red;
+}
+
+div.text-secondary-emphasis {
+  font-size: small;
+}
+
+ul.list-group {
+  list-style-type: none;
+  gap: 20px;
+  font-size: small;
+}
+
+ul.list-group > li:hover {
+  cursor: pointer;
+  color: black;
+}
+
+ul.footer-links-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  font-size: small;
+  color: gray;
+}
+
+.hove:hover {
+  color: rgba(0, 0, 255, 0.509);
+}
+
+/* Soliu footer end */
+
+/* tab view */
+@media screen and (min-width: 768px) {
+  /* Tope's tab start */
+  .button-subscribe {
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+  .icon {
+    font-size: 36px;
+  }
+
+  .grid-views {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+
+  /* My Turn/ Culture & Travel Images */
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image-margin {
+    margin-top: 0;
+  }
+
+  /* More Stories / Latest News */
+  .text-fonts,
+  .text-fonts2 {
+    font-size: 15px;
+  }
+
+  .text-fonts3,
+  .text-fonts4 {
+    font-size: 15px;
+  }
+
+  /* The debate */
+  .debate {
+    max-width: max-content;
+    width: 810px;
+  }
+
+  /* In the Magazine */
+  .text-links,
+  .all-features {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .all-features {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .magazine-fonts {
+    font-size: 18px;
+  }
+
+  .images-height {
+    height: 170px;
+  }
+
+  .editor {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .editor-image {
+    width: -webkit-fill-available;
+    height: max-content;
+  }
+
+  /* Section 1-7 */
+  .section-margin {
+    margin-top: 55px;
+  }
+
+  .section-padding {
+    padding-bottom: 20px;
+  }
+
+  .section-padding2 {
+    padding-bottom: 10px;
+  }
+
+  .section-padding4 {
+    padding-bottom: 13px;
+  }
+
+  .section-padding5 {
+    padding-bottom: 40px;
+  }
+
+  .ms-image {
+    width: 48%;
+  }
+
+  .section-padding3 {
+    padding-bottom: 20px;
+  }
+
+  /* Subscribe & Newsletter */
+  .sub-news {
+    left: 0;
+    top: 0;
+  }
+
+  .write-up {
+    position: static;
+  }
+
+  .newsletter-main-container {
+    width: -webkit-fill-available;
+  }
+
+  .newsletter-size {
+    width: 350px;
+  }
+
+  /* Tope's tab end */
+
+  /* Soliu's tab start */
+  .text-secondary-emphasis {
+    margin: 30px 0 0 30px;
+  }
+
+  /* Soliu's tab end */
+}
+
+/* desktop view */
+@media screen and (min-width: 1024px) {
+  /* Tope's desktop start */
+  .header-text-newsweek {
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  .header-log-sub {
+    margin-right: 12px;
+  }
+
+  .header-subscribe {
+    margin-top: 35px;
+  }
+
+  .header-date {
+    padding-left: 20px;
+  }
+
+  /* nav-bar */
+  .header-navbar1 {
+    justify-content: space-between;
+    font-size: large;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .header-navbar2 {
+    column-gap: 2em;
+  }
+
+  .nav-US {
+    margin-left: 12px;
+  }
+
+  .line {
+    margin-right: -25px;
+    margin-left: -25px;
+    color: darkgrey;
+    font-size: x-large;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  .h:hover {
+    color: red;
+  }
+
+  .search-bar {
+    margin-right: 20px;
+    font-size: initial;
+    margin-left: -15px;
+    margin-top: 10px;
+    color: darkgrey;
+  }
+
+  .search-icon {
+    margin-left: 5px;
+    font-size: 30px;
+  }
+
+  .trending {
+    margin-left: 20px;
+  }
+
+  .nav-link2 {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: 600;
+  }
+
+  .sub-nav-link {
+    margin-top: 8px;
+  }
+
+  /* Sector: grid-view */
+  .grid-views {
+    grid-template-columns: 25% 45% 25%;
+    column-gap: 1em;
+  }
+
+  /* More stories / Latest News */
+  .text-link2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text-fonts {
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+
+  .text-fonts2 {
+    padding-bottom: 0;
+  }
+
+  .text-fonts3 {
+    padding-bottom: 0;
+  }
+
+  .text-fonts4 {
+    padding-bottom: 0;
+  }
+
+  /* Margin for the featured stories and debate containers */
+  .featured {
+    margin-left: 30px;
+  }
+
+  .top-story {
+    margin-left: 30px;
+  }
+
+  .debate {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 300px;
+  }
+
+  /* In the Magazine */
+  .text-links,
+  .all-features {
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .images-height {
+    height: 295px;
+  }
+
+  .editor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  /* Section 1-7 */
+  .section-padding,
+  .section-padding2 {
+    padding-bottom: 35px;
+  }
+
+  .section-padding3,
+  .section-padding4,
+  .section-padding5 {
+    padding-bottom: 60px;
+  }
+
+  .section-margins {
+    margin-top: 15px;
+  }
+
+  .ms-image {
+    width: 30%;
+  }
+
+  /* Subscribe & Newsletter */
+  .write-up {
+    font-size: larger;
+  }
+
+  .newsletter-main-container {
+    width: 33%;
+  }
+
+  .newsletter-size {
+    width: 200px;
+    padding: 13px;
+    padding-bottom: 0;
+  }
+
+  .newsletter-image {
+    height: 320px;
+    width: 100%;
+  }
+
+  .font-starting {
+    margin-left: 10px;
+  }
+
+  .font-subscribe-newsletter {
+    margin-left: 10px;
+  }
+
+  .free-sign-up {
+    position: static;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+  .email-signup {
+    margin-left: 10px;
+  }
+
+  /* Tope's desktop end */
+
+  /* Soliu's desktop start */
+  .footer-width {
+    width: -webkit-fill-available;
+  }
+
+  /* Soliu's desktop end */
+}
+
+/* Mega desktop view for xx-large screens */
+@media screen and (min-width: 1400px) {
+  body {
+    margin: 0 100px 0 100px;
+  }
+
+  /* More Stories / Latest News */
+  .text-fonts2 {
+    padding-bottom: 20px;
+  }
+
+  .text-fonts3 {
+    padding-bottom: 30px;
+  }
+
+  .text-fonts4 {
+    padding-bottom: 10px;
+  }
+
+  /* Margin for the featured stories and debate containers */
+  .debate {
+    width: 330px;
+  }
+
+  /* In the Magazine */
+  .images-height {
+    height: 343px;
+  }
+
+  .images-width {
+    height: 400px;
+    width: 100%;
+  }
+
+  .images-widths {
+    width: 98%;
+  }
+
+  /* Section 1-7 */
+  .section-padding,
+  .section-padding2,
+  .section-padding3 {
+    padding-bottom: 60px;
+  }
+
+  .section-padding4 {
+    padding-bottom: 75px;
+  }
+
+  .ms-image {
+    width: 22%;
+  }
+}
