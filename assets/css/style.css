@@ -93,26 +93,6 @@ body {
 }
 
 /* In the Magazine */
-.magazine-text,
-.editor-text {
-  animation-duration: 5s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
 .logo-mag2 {
   display: inline-block;
   width: 30px;
@@ -574,6 +554,26 @@ ul.footer-links-menu {
   }
 
   /* In the Magazine */
+  .magazine-text,
+  .editor-text {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
   .text-links,
   .all-features {
     font-family: "Roboto Condensed", sans-serif;
